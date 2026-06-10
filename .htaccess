@@ -1,5 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://matttarter.com/$1 [R=301,L]
