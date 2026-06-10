@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Matt Tarter — Senior Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="header-identity">
+          <span class="header-name">Matt Tarter</span>
+          <span class="header-title">Senior Web Developer · San Diego, CA</span>
+        </div>
+        <nav class="header-links">
+          <a href="mailto:mjtarter@openmindwebs.com">Email</a>
+          <a href="https://linkedin.com/in/mjtarter" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="resume-matt-tarter.pdf" target="_blank">Resume ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>10+ years building high-performance websites for agencies, enterprise brands, and global tech conferences. Currently expanding into AI-powered web development — which is what you're looking at right now.</p>
+      </section>
+
+      <section class="chat-section">
+        <div class="chat-card">
+          <div class="chat-card-header">
+            <div class="chat-status">
+              <div class="status-dot"></div>
+              <span>Ask me anything about Matt</span>
+            </div>
+            <span class="powered-by">Powered by Claude</span>
+          </div>
+
+          <div class="chat-messages" id="chatMessages">
+            <div class="message assistant">
+              <div class="bubble">Hi! I'm an AI trained on Matt's background. Ask me about his experience, skills, past projects, or what he's looking for next.</div>
+            </div>
+          </div>
+
+          <div class="suggested-questions" id="suggestedQuestions">
+            <button class="sq-btn" data-q="What is Matt's primary area of expertise?">Primary expertise</button>
+            <button class="sq-btn" data-q="Tell me about Matt's work at Mentus">Work at Mentus</button>
+            <button class="sq-btn" data-q="What AI or automation projects has Matt built?">AI &amp; automation</button>
+            <button class="sq-btn" data-q="What kind of role is Matt looking for?">Open to what roles?</button>
+          </div>
+
+          <div class="chat-input-area">
+            <textarea id="chatInput" placeholder="Ask about Matt's experience…" rows="1" maxlength="500" autocomplete="off"></textarea>
+            <button class="send-btn" id="sendBtn" aria-label="Send message">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="mailto:mjtarter@openmindwebs.com">mjtarter@openmindwebs.com</a>
+        &nbsp;·&nbsp;
+        <a href="https://linkedin.com/in/mjtarter" target="_blank" rel="noopener">linkedin.com/in/mjtarter</a>
+      </p>
+    </footer>
+
+    <script src="chat.js"></script>
+  </body>
+</html>

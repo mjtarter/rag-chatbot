@@ -1,0 +1,37 @@
+ABOUT [YOUR NAME]
+=================
+[Brief professional summary — who you are, years of experience, what you specialize in.]
+
+CONTACT
+=======
+Email: [your email]
+LinkedIn: [your linkedin]
+Website: [your website]
+Location: [your city]
+
+WORK EXPERIENCE
+===============
+
+[Job Title] — [Company] | [Start] – [End]
+- [Key responsibility or achievement]
+- [Key responsibility or achievement]
+
+TECHNICAL SKILLS
+================
+[List your skills by category]
+
+EDUCATION
+=========
+[Degree] — [University]
+
+WHAT I'M LOOKING FOR
+====================
+[Types of roles, industries, remote/hybrid preference]
+
+COMMON QUESTIONS
+================
+Q: Are you open to freelance or contract work?
+A: [Your answer]
+
+Q: What is your salary expectation?
+A: [Your answer or redirect to email]
